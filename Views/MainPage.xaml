@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QueueSystem.Views.MainPage">
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.08*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+
+        <HorizontalStackLayout Background="#232323" Grid.ColumnSpan="2" >
+            <Image
+                Source="logo.png"  
+                WidthRequest="100"
+                HorizontalOptions="StartAndExpand" VerticalOptions="Center" />
+        </HorizontalStackLayout>
+
+
+        <ScrollView Background="#FEFEFE" Grid.ColumnSpan="2" Grid.Row="2" VerticalScrollBarVisibility="Always">
+            <VerticalStackLayout
+            Spacing="20"
+            Padding="30,0"
+            VerticalOptions="Center">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1.6*"/>
+                        <ColumnDefinition Width="0.1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Border BackgroundColor="#2d2d2d" StrokeThickness="0" WidthRequest="500" HeightRequest="50">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="20,20,20,20" />
+                        </Border.StrokeShape>
+
+                        <SearchBar x:Name="editor" FontSize="16" TextColor="#E5E5E5" VerticalOptions="Center"
+                                 Placeholder=" Axtar" TextChanged="SearchBar_TextChanged">
+                        </SearchBar>
+                    </Border>
+
+                    <HorizontalStackLayout Grid.Column="1" WidthRequest="210" VerticalOptions="End" >
+                        <Grid ColumnSpacing="15">
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+
+
+                            <Border x:Name="AddButton"  StrokeThickness="0" BackgroundColor="#ffa70f" Margin="15,0,0,0"
+                                    WidthRequest="50" HeightRequest="50" HorizontalOptions="Center">
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="8,8,8,8" />
+                                </Border.StrokeShape>
+
+                                <Image Source="plus.png" VerticalOptions="CenterAndExpand"/>
+
+                                <Border.GestureRecognizers>
+                                    <TapGestureRecognizer 
+                            Tapped="OnAddButtonTapped"/>
+                                </Border.GestureRecognizers>
+                            </Border>
+
+
+                            <Border Grid.Column="4"  StrokeThickness="0" BackgroundColor="#232323"
+                                                WidthRequest="50" HeightRequest="50" HorizontalOptions="End" VerticalOptions="Center" >
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="8,8,8,8" />
+                                </Border.StrokeShape>
+
+                                <Image Source="trash.png" HeightRequest="40" WidthRequest="40" VerticalOptions="Center"/>
+
+                                <Border.GestureRecognizers>
+                                    <TapGestureRecognizer  Tapped="OnEditButtonTapped"/>
+                                </Border.GestureRecognizers>
+                            </Border>
+                        </Grid>
+                    </HorizontalStackLayout>
+                </Grid>
+
+                <Frame BorderColor="#ffcb74" BackgroundColor="Transparent" HeightRequest="550" Padding="1" CornerRadius="6" HasShadow="False">
+                    <ListView Background="#F0F0F0" x:Name="list" HeightRequest="550">
+                        <ListView.Header>
+                            <Grid Padding="10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.125*"/>
+                                    <ColumnDefinition Width="0.8*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="0.9*"/>
+                                    <ColumnDefinition Width="0.3*"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Column="0" TextColor="#000" FontSize="15"  HorizontalOptions="End"
+                                       Text="Növbə"  FontFamily="TeX" VerticalOptions="Center" FontAttributes="Bold"/>
+
+                                <Label Grid.Column="1" TextColor="#000" FontSize="15" VerticalOptions="Center"  HorizontalOptions="Center"
+                                       Text="FIN"  FontFamily="TeX" CharacterSpacing="1" FontAttributes="Bold"/>
+
+                                <Label Grid.Column="2" TextColor="#000" FontSize="15"  VerticalOptions="Center" HorizontalOptions="Center"
+                                       Text="Tam adı"  FontFamily="TeX_Bold" CharacterSpacing="2" 
+                                       FontAttributes="Bold" />
+
+                                <Label Grid.Column="3" FontSize="15"
+                                           Text="Ödəniş Statusu" TextColor="#000" HorizontalOptions="Center" FontAttributes="Bold" FontFamily="TeX"
+                                           VerticalOptions="Center" />
+
+                                <Label Grid.Column="4" FontSize="15"
+                                           Text="Düzəliş" TextColor="#000" HorizontalOptions="Center" FontAttributes="Bold" FontFamily="TeX"
+                                           VerticalOptions="Center" />
+                            </Grid>
+                        </ListView.Header>
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Grid Padding="10">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="0.1*"/>
+                                            <ColumnDefinition Width="0.8*"/>
+                                            <ColumnDefinition Width="1*"/>
+                                            <ColumnDefinition Width="0.9*"/>
+                                            <ColumnDefinition Width="0.3*"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <Label Grid.Column="0" TextColor="#000" FontSize="18"  HorizontalOptions="Center"
+                                       Text="{Binding Queue}"  FontFamily="TeX" VerticalOptions="Center" FontAttributes="Bold"/>
+
+                                        <Label Grid.Column="1" TextColor="#000" FontSize="18" VerticalOptions="Center"  HorizontalOptions="Center"
+                                       Text="{Binding FIN}"  FontFamily="TeX" CharacterSpacing="1"/>
+
+
+
+                                        <Label Grid.Column="2" TextColor="#000" FontSize="18"  VerticalOptions="Center" HorizontalOptions="Center"
+                                       Text="{Binding FullName}"  FontFamily="TeX_Bold" CharacterSpacing="2" FontAttributes="Bold"/>
+                                        <Border Grid.Column="3" WidthRequest="130" HeightRequest="40"
+                                                StrokeThickness="1"
+                                                HorizontalOptions="Center">
+                                            <Border.StrokeShape>
+                                                <RoundRectangle CornerRadius="32,32,32,32" />
+                                            </Border.StrokeShape>
+
+                                            <Label Grid.Column="3" FontSize="17"
+                                                   Text="{Binding IsPaid}" TextColor="#000" HorizontalOptions="Center"
+                                                   FontFamily="TeX"
+                                                   VerticalOptions="Center">
+                                                <Label.Triggers>
+                                                    <DataTrigger TargetType="Label" Binding="{Binding IsPaid}" Value="true">
+                                                        <Setter Property="Text"  Value="Ödənilib"/>
+                                                        <Setter Property="TextColor"  Value="Green"/>
+                                                    </DataTrigger>
+                                                    <DataTrigger TargetType="Label" Binding="{Binding IsPaid}" Value="false">
+                                                        <Setter Property="Text"  Value="Ödənilməyib"/>
+                                                        <Setter Property="TextColor"  Value="Red"/>
+                                                    </DataTrigger>
+                                                </Label.Triggers>
+                                            </Label>
+
+                                            <Border.Triggers>
+                                                <DataTrigger TargetType="Border" Binding="{Binding IsPaid}" Value="true">
+                                                    <Setter Property="Stroke"  Value="Green"/>
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Border" Binding="{Binding IsPaid}" Value="false">
+                                                    <Setter Property="Stroke"  Value="Red"/>
+                                                </DataTrigger>
+                                            </Border.Triggers>
+                                        </Border>
+
+                                        <Border Grid.Column="4" x:Name="stack2"  StrokeThickness="0" BackgroundColor="#3740DF"
+                                                WidthRequest="50" HeightRequest="50" HorizontalOptions="Start" VerticalOptions="Center" >
+                                            <Border.StrokeShape>
+                                                <RoundRectangle CornerRadius="8,8,8,8" />
+                                            </Border.StrokeShape>
+
+                                            <Image Source="page_edit.png" HeightRequest="40" WidthRequest="40" VerticalOptions="Center"/>
+
+                                            <Border.GestureRecognizers>
+                                                <TapGestureRecognizer  Tapped="OnEditButtonTapped"/>
+                                            </Border.GestureRecognizers>
+                                        </Border>
+
+                                        <Border Grid.Column="4"  StrokeThickness="0" BackgroundColor="#232323"
+                                                WidthRequest="50" HeightRequest="50" HorizontalOptions="End" VerticalOptions="Center" >
+                                            <Border.StrokeShape>
+                                                <RoundRectangle CornerRadius="8,8,8,8" />
+                                            </Border.StrokeShape>
+
+                                            <Image Source="trash.png" HeightRequest="40" WidthRequest="40" VerticalOptions="Center"/>
+
+                                            <Border.GestureRecognizers>
+                                                <TapGestureRecognizer  Tapped="OnEditButtonTapped"/>
+                                            </Border.GestureRecognizers>
+                                        </Border>
+                                    </Grid>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </Frame>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

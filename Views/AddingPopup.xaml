@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+               x:Class="QueueSystem.Views.AddingPopup" Color="Transparent" CanBeDismissedByTappingOutsideOfPopup="False">
+
+    <Border StrokeThickness="0" WidthRequest="380" HeightRequest="350">
+        <Border.StrokeShape>
+            <RoundRectangle CornerRadius="8,8,8,8" />
+        </Border.StrokeShape>
+
+        <Grid WidthRequest="380" HeightRequest="350">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="0.3*"/>
+            </Grid.RowDefinitions>
+
+            <VerticalStackLayout Grid.Row="0" Padding="15" BackgroundColor="#272727" Spacing="15">
+                <Label Text="Yeni insanın əlavə edilməsi" FontFamily="TeX_Bold" FontSize="22" FontAttributes="Bold" HorizontalOptions="Center" LineBreakMode="NoWrap"/>
+
+                <VerticalStackLayout>
+                    <Label Text="FIN"/>
+                    <Entry x:Name="FIN"/>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout>
+                    <Label Text="Tam adı"/>
+                    <Entry x:Name="FullName"/>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Ödəniş Statusu" FontFamily="TeX"/>
+                    <HorizontalStackLayout>
+                        <RadioButton Content="Ödənilib" FontFamily="TeX"/>
+                        <RadioButton Content="Ödənilməyib" FontFamily="TeX"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </VerticalStackLayout>
+
+            <HorizontalStackLayout Grid.Row="1" BackgroundColor="#1A1A1A">
+                <Grid WidthRequest="380">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Grid.Column="0" Text="Enter"  WidthRequest="150" HeightRequest="35" TextColor="#E5E5E5" BackgroundColor="#292929" VerticalOptions="Center" HorizontalOptions="End" Margin="0,0,5,0" Clicked="OnSubmitlButtonClicked"/>
+                    <Button Grid.Column="1" Text="Cancel" WidthRequest="150" HeightRequest="35" TextColor="#E5E5E5" BackgroundColor="#292929" VerticalOptions="Center" HorizontalOptions="Start" Margin="5,0,0,0" Clicked="OnCancelButtonClicked"/>
+                </Grid>
+            </HorizontalStackLayout>
+        </Grid>
+    </Border>
+</toolkit:Popup>

@@ -1,0 +1,1 @@
+Resources/Layout/CameraFragment.axml;layout/camerafragment.xml
