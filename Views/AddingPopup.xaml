@@ -18,21 +18,24 @@
             <VerticalStackLayout Grid.Row="0" Padding="15" BackgroundColor="#272727" Spacing="15">
                 <Label Text="Yeni insanın əlavə edilməsi" FontFamily="TeX_Bold" FontSize="22" FontAttributes="Bold" HorizontalOptions="Center" LineBreakMode="NoWrap"/>
 
-                <VerticalStackLayout>
+                <VerticalStackLayout Spacing="5">
                     <Label Text="FIN"/>
-                    <Entry x:Name="FIN"/>
+                    <Border x:Name="FIN_Border" Stroke="Transparent" StrokeThickness="0" StrokeShape="RoundRectangle 8,8,8,8" Padding="0" HeightRequest="32">
+                        <Entry x:Name="FIN" FontSize="15" TextChanged="InputsCheck"/>
+                    </Border>
                 </VerticalStackLayout>
 
-                <VerticalStackLayout>
+                <VerticalStackLayout Spacing="5">
                     <Label Text="Tam adı"/>
-                    <Entry x:Name="FullName"/>
+                    <Entry x:Name="FullName" FontSize="15" TextChanged="InputsCheck"/>
                 </VerticalStackLayout>
 
                 <VerticalStackLayout Spacing="5">
                     <Label Text="Ödəniş Statusu" FontFamily="TeX"/>
+
                     <HorizontalStackLayout>
-                        <RadioButton Content="Ödənilib" FontFamily="TeX"/>
-                        <RadioButton Content="Ödənilməyib" FontFamily="TeX"/>
+                        <RadioButton x:Name="Paid" CheckedChanged="RadioButtonSelected" Content="Ödənilib" FontFamily="TeX"/>
+                        <RadioButton x:Name="NotPaid" CheckedChanged="RadioButtonSelected" Content="Ödənilməyib" FontFamily="TeX"/>
                     </HorizontalStackLayout>
                 </VerticalStackLayout>
             </VerticalStackLayout>
@@ -44,8 +47,17 @@
                         <ColumnDefinition Width="1*"/>
                     </Grid.ColumnDefinitions>
 
-                    <Button Grid.Column="0" Text="Enter"  WidthRequest="150" HeightRequest="35" TextColor="#E5E5E5" BackgroundColor="#292929" VerticalOptions="Center" HorizontalOptions="End" Margin="0,0,5,0" Clicked="OnSubmitlButtonClicked"/>
-                    <Button Grid.Column="1" Text="Cancel" WidthRequest="150" HeightRequest="35" TextColor="#E5E5E5" BackgroundColor="#292929" VerticalOptions="Center" HorizontalOptions="Start" Margin="5,0,0,0" Clicked="OnCancelButtonClicked"/>
+                    <Button x:Name="Submit" FontSize="15" Grid.Column="0" IsEnabled="False" Text="Əlavə et" WidthRequest="150" HeightRequest="38" FontFamily="TeX" TextColor="#E5E5E5" BackgroundColor="#292929" VerticalOptions="Center" HorizontalOptions="End" Margin="0,0,5,0" Clicked="OnSubmitlButtonClicked">
+                        <Button.Triggers>
+                            <Trigger TargetType="Button"
+                                     Property="IsEnabled"
+                                     Value="False">
+                                <Setter Property="Opacity"
+                                        Value="0.5" />
+                            </Trigger>
+                        </Button.Triggers>
+                    </Button>
+                    <Button Grid.Column="1" FontSize="15" Text="Ləğv et" WidthRequest="150" HeightRequest="38" FontFamily="TeX" TextColor="#E5E5E5" BackgroundColor="#292929" VerticalOptions="Center" HorizontalOptions="Start" Margin="5,0,0,0" Clicked="OnCancelButtonClicked"/>
                 </Grid>
             </HorizontalStackLayout>
         </Grid>

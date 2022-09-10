@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\Orion\source\repos\QueueSystem\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-09-06T21:10:28.627</Modified>
+      <Modified>2022-09-10T18:49:46.632</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-09-06T21:10:27.940</Modified>
+      <Modified>2022-09-10T18:49:45.073</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\QueueSystem.runtimeconfig.json">
       <PackagePath>QueueSystem.runtimeconfig.json</PackagePath>
-      <Modified>2022-08-31T21:56:48.884</Modified>
+      <Modified>2022-09-09T10:07:31.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\QueueSystem.dll">
       <PackagePath>QueueSystem.dll</PackagePath>
-      <Modified>2022-09-06T21:10:26.169</Modified>
+      <Modified>2022-09-10T18:49:42.880</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>QueueSystem.exe</PackagePath>
-      <Modified>2022-09-06T21:10:26.188</Modified>
+      <Modified>2022-09-10T18:49:42.920</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.8\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1065,6 +1065,26 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2022-07-19T16:53:02.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\.nuget\packages\sqlite-net-pcl\1.8.116\lib\netstandard2.0\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2021-09-02T21:04:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\.nuget\packages\sqlitepclraw.bundle_green\2.0.4\lib\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2020-09-03T17:13:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\.nuget\packages\sqlitepclraw.bundle_green\2.0.4\lib\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll">
+      <PackagePath>SQLitePCLRaw.nativelibrary.dll</PackagePath>
+      <Modified>2020-09-03T17:13:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\.nuget\packages\sqlitepclraw.core\2.0.4\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2020-09-03T17:13:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\.nuget\packages\sqlitepclraw.provider.dynamic_cdecl\2.0.4\lib\netstandard2.0\SQLitePCLRaw.provider.dynamic_cdecl.dll">
+      <PackagePath>SQLitePCLRaw.provider.dynamic_cdecl.dll</PackagePath>
+      <Modified>2020-09-03T17:13:18.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\.nuget\packages\microsoft.graphics.win2d\1.0.3.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2022-04-28T15:57:10.000</Modified>
@@ -1073,9 +1093,13 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-07-19T16:53:02.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.4\runtimes\win-x64\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2020-08-17T14:38:20.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\QueueSystem.deps.json">
       <PackagePath>QueueSystem.deps.json</PackagePath>
-      <Modified>2022-09-06T21:10:28.374</Modified>
+      <Modified>2022-09-10T18:49:46.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.486\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

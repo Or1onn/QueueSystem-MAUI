@@ -13,6 +13,8 @@ public static class MauiProgram
             fonts.AddFont("texgyrebonum-regular", "TeX");
             fonts.AddFont("texgyrebonum-bold.otf", "TeX_Bold");
         }).UseMauiCommunityToolkit();
+
+
         return builder.Build();
     }
 }
