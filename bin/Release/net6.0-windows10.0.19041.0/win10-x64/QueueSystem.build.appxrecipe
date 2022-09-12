@@ -9,7 +9,7 @@
     <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>68028A63-E4DF-4266-82DE-2A1D166B68AB</PackageIdentityName>
-    <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=Contoso</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
@@ -799,11 +799,29 @@
     <AppxPackagedFile Include="C:\Users\Orion\.nuget\packages\microsoft.windowsappsdk\1.1.3\lib\net5.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\.nuget\packages\sqlite-net-pcl\1.8.116\lib\netstandard2.0\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\.nuget\packages\sqlitepclraw.bundle_green\2.0.4\lib\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\.nuget\packages\sqlitepclraw.bundle_green\2.0.4\lib\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll">
+      <PackagePath>SQLitePCLRaw.nativelibrary.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\.nuget\packages\sqlitepclraw.core\2.0.4\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\.nuget\packages\sqlitepclraw.provider.dynamic_cdecl\2.0.4\lib\netstandard2.0\SQLitePCLRaw.provider.dynamic_cdecl.dll">
+      <PackagePath>SQLitePCLRaw.provider.dynamic_cdecl.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\.nuget\packages\microsoft.graphics.win2d\1.0.3.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\.nuget\packages\microsoft.windowsappsdk\1.1.3\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.4\runtimes\win-x64\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\QueueSystem.deps.json">
       <PackagePath>QueueSystem.deps.json</PackagePath>
@@ -819,6 +837,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\logoSplashScreen.scale-100.png">
+      <PackagePath>logoSplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\logoSplashScreen.scale-125.png">
+      <PackagePath>logoSplashScreen.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\logoSplashScreen.scale-150.png">
+      <PackagePath>logoSplashScreen.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\logoSplashScreen.scale-200.png">
+      <PackagePath>logoSplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\logoSplashScreen.scale-400.png">
+      <PackagePath>logoSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\DihjautiS-Bold.otf">
       <PackagePath>DihjautiS-Bold.otf</PackagePath>
@@ -961,6 +994,9 @@
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit.scale-400.png">
       <PackagePath>edit.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.ico">
+      <PackagePath>logo.ico</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
       <PackagePath>logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -975,6 +1011,96 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-400.png">
       <PackagePath>logo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoLargeTile.scale-100.png">
+      <PackagePath>logoLargeTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoLargeTile.scale-125.png">
+      <PackagePath>logoLargeTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoLargeTile.scale-150.png">
+      <PackagePath>logoLargeTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoLargeTile.scale-200.png">
+      <PackagePath>logoLargeTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoLargeTile.scale-400.png">
+      <PackagePath>logoLargeTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoLogo.scale-100.png">
+      <PackagePath>logoLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoLogo.scale-125.png">
+      <PackagePath>logoLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoLogo.scale-150.png">
+      <PackagePath>logoLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoLogo.scale-200.png">
+      <PackagePath>logoLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoLogo.scale-400.png">
+      <PackagePath>logoLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoMediumTile.scale-100.png">
+      <PackagePath>logoMediumTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoMediumTile.scale-125.png">
+      <PackagePath>logoMediumTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoMediumTile.scale-150.png">
+      <PackagePath>logoMediumTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoMediumTile.scale-200.png">
+      <PackagePath>logoMediumTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoMediumTile.scale-400.png">
+      <PackagePath>logoMediumTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoSmallTile.scale-100.png">
+      <PackagePath>logoSmallTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoSmallTile.scale-125.png">
+      <PackagePath>logoSmallTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoSmallTile.scale-150.png">
+      <PackagePath>logoSmallTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoSmallTile.scale-200.png">
+      <PackagePath>logoSmallTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoSmallTile.scale-400.png">
+      <PackagePath>logoSmallTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoStoreLogo.scale-100.png">
+      <PackagePath>logoStoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoStoreLogo.scale-125.png">
+      <PackagePath>logoStoreLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoStoreLogo.scale-150.png">
+      <PackagePath>logoStoreLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoStoreLogo.scale-200.png">
+      <PackagePath>logoStoreLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoStoreLogo.scale-400.png">
+      <PackagePath>logoStoreLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoWideTile.scale-100.png">
+      <PackagePath>logoWideTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoWideTile.scale-125.png">
+      <PackagePath>logoWideTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoWideTile.scale-150.png">
+      <PackagePath>logoWideTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoWideTile.scale-200.png">
+      <PackagePath>logoWideTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoWideTile.scale-400.png">
+      <PackagePath>logoWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Release\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\page_edit.scale-100.png">
       <PackagePath>page_edit.scale-100.png</PackagePath>

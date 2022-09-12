@@ -29,16 +29,17 @@
             VerticalOptions="CenterAndExpand">
                 <Grid>
                     <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.1*"/>
                         <ColumnDefinition Width="1.6*"/>
                         <ColumnDefinition Width="0.1*"/>
                     </Grid.ColumnDefinitions>
-                    <Border BackgroundColor="#2d2d2d" StrokeThickness="0" StrokeShape="RoundRectangle 20,20,20,20" WidthRequest="500" HeightRequest="50" Margin="0,0,5,0">
-                        <SearchBar FontSize="16" TextColor="#E5E5E5" VerticalOptions="Center"
+                    <Border BackgroundColor="#2d2d2d" Grid.Column="1" StrokeThickness="0" StrokeShape="RoundRectangle 20,20,20,20" HorizontalOptions="Center" WidthRequest="500" HeightRequest="50" Margin="0,20,0,0">
+                        <SearchBar FontSize="16" TextColor="#E5E5E5" VerticalOptions="CenterAndExpand"
                                  Placeholder=" Axtar" TextChanged="SearchBar_TextChanged">
                         </SearchBar>
                     </Border>
 
-                    <HorizontalStackLayout Grid.Column="1" WidthRequest="210" VerticalOptions="End" >
+                    <HorizontalStackLayout Grid.Column="2" WidthRequest="210" VerticalOptions="End" >
                         <Grid ColumnSpacing="15">
 
                             <Grid.ColumnDefinitions>
@@ -69,13 +70,13 @@
                     </HorizontalStackLayout>
                 </Grid>
 
-                <Frame BorderColor="#ffcb74" BackgroundColor="Transparent" HeightRequest="550" Padding="1" CornerRadius="6" HasShadow="False">
+                <Border Stroke="#ffcb74" BackgroundColor="Transparent" HeightRequest="550" Padding="1" StrokeShape="RoundRectangle 6,6,6,6">
                     <ListView Background="#F0F0F0" CachingStrategy="RecycleElementAndDataTemplate" x:Name="list" HeightRequest="550">
                         <ListView.Header>
                             <Grid Padding="10">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="0.125*"/>
-                                    <ColumnDefinition Width="0.8*"/>
+                                    <ColumnDefinition Width="1*"/>
                                     <ColumnDefinition Width="1*"/>
                                     <ColumnDefinition Width="0.9*"/>
                                     <ColumnDefinition Width="0.3*"/>
@@ -105,7 +106,7 @@
                                     <Grid Padding="10">
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="0.1*"/>
-                                            <ColumnDefinition Width="0.8*"/>
+                                            <ColumnDefinition Width="1*"/>
                                             <ColumnDefinition Width="1*"/>
                                             <ColumnDefinition Width="0.9*"/>
                                             <ColumnDefinition Width="0.3*"/>
@@ -116,8 +117,6 @@
 
                                         <Label Grid.Column="1" TextColor="#000" FontSize="18" VerticalOptions="Center"  HorizontalOptions="Center"
                                        Text="{Binding FIN}"  FontFamily="TeX" CharacterSpacing="1"/>
-
-
 
                                         <Label Grid.Column="2" TextColor="#000" FontSize="18"  VerticalOptions="Center" HorizontalOptions="Center"
                                        Text="{Binding FullName}"  FontFamily="TeX_Bold" CharacterSpacing="2" FontAttributes="Bold"/>
@@ -175,7 +174,9 @@
                             </DataTemplate>
                         </ListView.ItemTemplate>
                     </ListView>
-                </Frame>
+                </Border>
+
+                <Picker WidthRequest="100" HeightRequest="40" BackgroundColor="Black" HorizontalOptions="Fill" Margin="0,0,20,0"/>
             </VerticalStackLayout>
         </StackLayout>
     </Grid>

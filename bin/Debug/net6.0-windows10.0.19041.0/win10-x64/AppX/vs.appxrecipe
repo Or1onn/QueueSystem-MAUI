@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Orion\source\repos\QueueSystem\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>7F278FCDB0E90CAEE4B929D0CCF34E5D19074F158534E5BA8C0E32D6F4D0D613</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>AD7F854E6384AD1858DEF5E2FBA4E96CC9C391B33EFEA879CF7F8BD658DD51A0</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>68028A63-E4DF-4266-82DE-2A1D166B68AB_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>68028A63-E4DF-4266-82DE-2A1D166B68AB_9zz4h110yvjzm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>68028A63-E4DF-4266-82DE-2A1D166B68AB</RegisteredPackageID>
@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\Orion\source\repos\QueueSystem\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-09-10T18:49:46.632</Modified>
+      <Modified>2022-09-12T08:18:46.198</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-09-10T18:49:45.073</Modified>
+      <Modified>2022-09-11T22:17:53.400</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\QueueSystem.runtimeconfig.json">
       <PackagePath>QueueSystem.runtimeconfig.json</PackagePath>
-      <Modified>2022-09-09T10:07:31.616</Modified>
+      <Modified>2022-09-11T17:30:32.343</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\QueueSystem.dll">
       <PackagePath>QueueSystem.dll</PackagePath>
-      <Modified>2022-09-10T18:49:42.880</Modified>
+      <Modified>2022-09-12T08:18:43.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>QueueSystem.exe</PackagePath>
-      <Modified>2022-09-10T18:49:42.920</Modified>
+      <Modified>2022-09-12T08:18:43.490</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.8\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1099,7 +1099,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\QueueSystem.deps.json">
       <PackagePath>QueueSystem.deps.json</PackagePath>
-      <Modified>2022-09-10T18:49:46.286</Modified>
+      <Modified>2022-09-12T08:18:45.877</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.486\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1116,6 +1116,26 @@
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2022-08-23T12:32:04.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\logoSplashScreen.scale-100.png">
+      <PackagePath>logoSplashScreen.scale-100.png</PackagePath>
+      <Modified>2022-09-11T22:17:52.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\logoSplashScreen.scale-125.png">
+      <PackagePath>logoSplashScreen.scale-125.png</PackagePath>
+      <Modified>2022-09-11T22:17:52.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\logoSplashScreen.scale-150.png">
+      <PackagePath>logoSplashScreen.scale-150.png</PackagePath>
+      <Modified>2022-09-11T22:17:52.272</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\logoSplashScreen.scale-200.png">
+      <PackagePath>logoSplashScreen.scale-200.png</PackagePath>
+      <Modified>2022-09-11T22:17:52.308</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\logoSplashScreen.scale-400.png">
+      <PackagePath>logoSplashScreen.scale-400.png</PackagePath>
+      <Modified>2022-09-11T22:17:52.414</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\DihjautiS-Bold.otf">
       <PackagePath>DihjautiS-Bold.otf</PackagePath>
@@ -1155,267 +1175,519 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2022-09-01T22:33:00.857</Modified>
+      <Modified>2022-09-11T22:13:29.765</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2022-09-01T22:33:01.196</Modified>
+      <Modified>2022-09-11T22:13:29.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2022-09-01T22:33:01.222</Modified>
+      <Modified>2022-09-11T22:13:29.909</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2022-09-01T22:33:01.241</Modified>
+      <Modified>2022-09-11T22:13:29.922</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2022-09-01T22:33:01.282</Modified>
+      <Modified>2022-09-11T22:13:29.937</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2022-09-01T22:33:01.417</Modified>
+      <Modified>2022-09-11T22:13:29.992</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.873</Modified>
+      <Modified>2022-09-11T22:13:29.766</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.877</Modified>
+      <Modified>2022-09-11T22:13:29.767</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.882</Modified>
+      <Modified>2022-09-11T22:13:29.769</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.887</Modified>
+      <Modified>2022-09-11T22:13:29.770</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.894</Modified>
+      <Modified>2022-09-11T22:13:29.773</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.969</Modified>
+      <Modified>2022-09-11T22:13:29.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.977</Modified>
+      <Modified>2022-09-11T22:13:29.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.987</Modified>
+      <Modified>2022-09-11T22:13:29.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2022-09-01T22:33:01.004</Modified>
+      <Modified>2022-09-11T22:13:29.811</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2022-09-01T22:33:01.039</Modified>
+      <Modified>2022-09-11T22:13:29.825</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.931</Modified>
+      <Modified>2022-09-11T22:13:29.782</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.936</Modified>
+      <Modified>2022-09-11T22:13:29.785</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.941</Modified>
+      <Modified>2022-09-11T22:13:29.787</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.947</Modified>
+      <Modified>2022-09-11T22:13:29.790</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.961</Modified>
+      <Modified>2022-09-11T22:13:29.797</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.899</Modified>
+      <Modified>2022-09-11T22:13:29.774</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.904</Modified>
+      <Modified>2022-09-11T22:13:29.775</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.909</Modified>
+      <Modified>2022-09-11T22:13:29.776</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.915</Modified>
+      <Modified>2022-09-11T22:13:29.777</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.926</Modified>
+      <Modified>2022-09-11T22:13:29.780</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2022-09-01T22:33:01.050</Modified>
+      <Modified>2022-09-11T22:13:29.828</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2022-09-01T22:33:01.064</Modified>
+      <Modified>2022-09-11T22:13:29.832</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2022-09-01T22:33:01.081</Modified>
+      <Modified>2022-09-11T22:13:29.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2022-09-01T22:33:01.102</Modified>
+      <Modified>2022-09-11T22:13:29.849</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2022-09-01T22:33:01.176</Modified>
+      <Modified>2022-09-11T22:13:29.890</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.457</Modified>
+      <Modified>2022-09-11T22:14:08.586</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.480</Modified>
+      <Modified>2022-09-11T22:14:08.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.511</Modified>
+      <Modified>2022-09-11T22:14:08.614</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.561</Modified>
+      <Modified>2022-09-11T22:14:08.635</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.669</Modified>
+      <Modified>2022-09-11T22:14:08.689</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit.scale-100.png">
       <PackagePath>edit.scale-100.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.463</Modified>
+      <Modified>2022-09-11T22:14:08.585</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit.scale-125.png">
       <PackagePath>edit.scale-125.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.490</Modified>
+      <Modified>2022-09-11T22:14:08.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit.scale-150.png">
       <PackagePath>edit.scale-150.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.533</Modified>
+      <Modified>2022-09-11T22:14:08.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit.scale-200.png">
       <PackagePath>edit.scale-200.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.601</Modified>
+      <Modified>2022-09-11T22:14:08.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit.scale-400.png">
       <PackagePath>edit.scale-400.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.818</Modified>
+      <Modified>2022-09-11T22:14:08.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vector.ico">
+      <PackagePath>image2vector.ico</PackagePath>
+      <Modified>2022-09-11T22:00:01.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorLargeTile.scale-100.png">
+      <PackagePath>image2vectorLargeTile.scale-100.png</PackagePath>
+      <Modified>2022-09-11T22:00:02.590</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorLargeTile.scale-125.png">
+      <PackagePath>image2vectorLargeTile.scale-125.png</PackagePath>
+      <Modified>2022-09-11T22:00:02.618</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorLargeTile.scale-150.png">
+      <PackagePath>image2vectorLargeTile.scale-150.png</PackagePath>
+      <Modified>2022-09-11T22:00:02.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorLargeTile.scale-200.png">
+      <PackagePath>image2vectorLargeTile.scale-200.png</PackagePath>
+      <Modified>2022-09-11T22:00:02.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorLargeTile.scale-400.png">
+      <PackagePath>image2vectorLargeTile.scale-400.png</PackagePath>
+      <Modified>2022-09-11T22:00:02.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorLogo.scale-100.png">
+      <PackagePath>image2vectorLogo.scale-100.png</PackagePath>
+      <Modified>2022-09-11T22:00:01.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorLogo.scale-125.png">
+      <PackagePath>image2vectorLogo.scale-125.png</PackagePath>
+      <Modified>2022-09-11T22:00:01.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorLogo.scale-150.png">
+      <PackagePath>image2vectorLogo.scale-150.png</PackagePath>
+      <Modified>2022-09-11T22:00:01.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorLogo.scale-200.png">
+      <PackagePath>image2vectorLogo.scale-200.png</PackagePath>
+      <Modified>2022-09-11T22:00:01.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorLogo.scale-400.png">
+      <PackagePath>image2vectorLogo.scale-400.png</PackagePath>
+      <Modified>2022-09-11T22:00:01.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorMediumTile.scale-100.png">
+      <PackagePath>image2vectorMediumTile.scale-100.png</PackagePath>
+      <Modified>2022-09-11T22:00:02.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorMediumTile.scale-125.png">
+      <PackagePath>image2vectorMediumTile.scale-125.png</PackagePath>
+      <Modified>2022-09-11T22:00:02.211</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorMediumTile.scale-150.png">
+      <PackagePath>image2vectorMediumTile.scale-150.png</PackagePath>
+      <Modified>2022-09-11T22:00:02.220</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorMediumTile.scale-200.png">
+      <PackagePath>image2vectorMediumTile.scale-200.png</PackagePath>
+      <Modified>2022-09-11T22:00:02.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorMediumTile.scale-400.png">
+      <PackagePath>image2vectorMediumTile.scale-400.png</PackagePath>
+      <Modified>2022-09-11T22:00:02.314</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorSmallTile.scale-100.png">
+      <PackagePath>image2vectorSmallTile.scale-100.png</PackagePath>
+      <Modified>2022-09-11T22:00:02.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorSmallTile.scale-125.png">
+      <PackagePath>image2vectorSmallTile.scale-125.png</PackagePath>
+      <Modified>2022-09-11T22:00:02.110</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorSmallTile.scale-150.png">
+      <PackagePath>image2vectorSmallTile.scale-150.png</PackagePath>
+      <Modified>2022-09-11T22:00:02.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorSmallTile.scale-200.png">
+      <PackagePath>image2vectorSmallTile.scale-200.png</PackagePath>
+      <Modified>2022-09-11T22:00:02.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorSmallTile.scale-400.png">
+      <PackagePath>image2vectorSmallTile.scale-400.png</PackagePath>
+      <Modified>2022-09-11T22:00:02.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorStoreLogo.scale-100.png">
+      <PackagePath>image2vectorStoreLogo.scale-100.png</PackagePath>
+      <Modified>2022-09-11T22:00:01.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorStoreLogo.scale-125.png">
+      <PackagePath>image2vectorStoreLogo.scale-125.png</PackagePath>
+      <Modified>2022-09-11T22:00:01.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorStoreLogo.scale-150.png">
+      <PackagePath>image2vectorStoreLogo.scale-150.png</PackagePath>
+      <Modified>2022-09-11T22:00:01.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorStoreLogo.scale-200.png">
+      <PackagePath>image2vectorStoreLogo.scale-200.png</PackagePath>
+      <Modified>2022-09-11T22:00:01.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorStoreLogo.scale-400.png">
+      <PackagePath>image2vectorStoreLogo.scale-400.png</PackagePath>
+      <Modified>2022-09-11T22:00:02.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorWideTile.scale-100.png">
+      <PackagePath>image2vectorWideTile.scale-100.png</PackagePath>
+      <Modified>2022-09-11T22:00:02.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorWideTile.scale-125.png">
+      <PackagePath>image2vectorWideTile.scale-125.png</PackagePath>
+      <Modified>2022-09-11T22:00:02.361</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorWideTile.scale-150.png">
+      <PackagePath>image2vectorWideTile.scale-150.png</PackagePath>
+      <Modified>2022-09-11T22:00:02.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorWideTile.scale-200.png">
+      <PackagePath>image2vectorWideTile.scale-200.png</PackagePath>
+      <Modified>2022-09-11T22:00:02.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2vectorWideTile.scale-400.png">
+      <PackagePath>image2vectorWideTile.scale-400.png</PackagePath>
+      <Modified>2022-09-11T22:00:02.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.ico">
+      <PackagePath>logo.ico</PackagePath>
+      <Modified>2022-09-11T22:14:08.849</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
       <PackagePath>logo.scale-100.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.198</Modified>
+      <Modified>2022-09-11T22:14:08.594</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-125.png">
       <PackagePath>logo.scale-125.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.256</Modified>
+      <Modified>2022-09-11T22:14:08.620</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-150.png">
       <PackagePath>logo.scale-150.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.330</Modified>
+      <Modified>2022-09-11T22:14:08.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-200.png">
       <PackagePath>logo.scale-200.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.427</Modified>
+      <Modified>2022-09-11T22:14:08.695</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-400.png">
       <PackagePath>logo.scale-400.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.700</Modified>
+      <Modified>2022-09-11T22:14:08.787</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo2.scale-100.png">
+      <PackagePath>logo2.scale-100.png</PackagePath>
+      <Modified>2022-08-26T17:03:35.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoLargeTile.scale-100.png">
+      <PackagePath>logoLargeTile.scale-100.png</PackagePath>
+      <Modified>2022-09-11T22:14:13.437</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoLargeTile.scale-125.png">
+      <PackagePath>logoLargeTile.scale-125.png</PackagePath>
+      <Modified>2022-09-11T22:14:13.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoLargeTile.scale-150.png">
+      <PackagePath>logoLargeTile.scale-150.png</PackagePath>
+      <Modified>2022-09-11T22:14:13.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoLargeTile.scale-200.png">
+      <PackagePath>logoLargeTile.scale-200.png</PackagePath>
+      <Modified>2022-09-11T22:14:14.006</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoLargeTile.scale-400.png">
+      <PackagePath>logoLargeTile.scale-400.png</PackagePath>
+      <Modified>2022-09-11T22:14:14.816</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoLogo.scale-100.png">
+      <PackagePath>logoLogo.scale-100.png</PackagePath>
+      <Modified>2022-09-11T22:14:09.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoLogo.scale-125.png">
+      <PackagePath>logoLogo.scale-125.png</PackagePath>
+      <Modified>2022-09-11T22:14:09.216</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoLogo.scale-150.png">
+      <PackagePath>logoLogo.scale-150.png</PackagePath>
+      <Modified>2022-09-11T22:14:09.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoLogo.scale-200.png">
+      <PackagePath>logoLogo.scale-200.png</PackagePath>
+      <Modified>2022-09-11T22:14:09.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoLogo.scale-400.png">
+      <PackagePath>logoLogo.scale-400.png</PackagePath>
+      <Modified>2022-09-11T22:14:09.712</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoMediumTile.scale-100.png">
+      <PackagePath>logoMediumTile.scale-100.png</PackagePath>
+      <Modified>2022-09-11T22:14:11.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoMediumTile.scale-125.png">
+      <PackagePath>logoMediumTile.scale-125.png</PackagePath>
+      <Modified>2022-09-11T22:14:11.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoMediumTile.scale-150.png">
+      <PackagePath>logoMediumTile.scale-150.png</PackagePath>
+      <Modified>2022-09-11T22:14:11.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoMediumTile.scale-200.png">
+      <PackagePath>logoMediumTile.scale-200.png</PackagePath>
+      <Modified>2022-09-11T22:14:12.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoMediumTile.scale-400.png">
+      <PackagePath>logoMediumTile.scale-400.png</PackagePath>
+      <Modified>2022-09-11T22:14:12.215</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoSmallTile.scale-100.png">
+      <PackagePath>logoSmallTile.scale-100.png</PackagePath>
+      <Modified>2022-09-11T22:14:10.698</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoSmallTile.scale-125.png">
+      <PackagePath>logoSmallTile.scale-125.png</PackagePath>
+      <Modified>2022-09-11T22:14:10.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoSmallTile.scale-150.png">
+      <PackagePath>logoSmallTile.scale-150.png</PackagePath>
+      <Modified>2022-09-11T22:14:11.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoSmallTile.scale-200.png">
+      <PackagePath>logoSmallTile.scale-200.png</PackagePath>
+      <Modified>2022-09-11T22:14:11.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoSmallTile.scale-400.png">
+      <PackagePath>logoSmallTile.scale-400.png</PackagePath>
+      <Modified>2022-09-11T22:14:11.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoStoreLogo.scale-100.png">
+      <PackagePath>logoStoreLogo.scale-100.png</PackagePath>
+      <Modified>2022-09-11T22:14:09.877</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoStoreLogo.scale-125.png">
+      <PackagePath>logoStoreLogo.scale-125.png</PackagePath>
+      <Modified>2022-09-11T22:14:10.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoStoreLogo.scale-150.png">
+      <PackagePath>logoStoreLogo.scale-150.png</PackagePath>
+      <Modified>2022-09-11T22:14:10.202</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoStoreLogo.scale-200.png">
+      <PackagePath>logoStoreLogo.scale-200.png</PackagePath>
+      <Modified>2022-09-11T22:14:10.367</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoStoreLogo.scale-400.png">
+      <PackagePath>logoStoreLogo.scale-400.png</PackagePath>
+      <Modified>2022-09-11T22:14:10.534</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoWideTile.scale-100.png">
+      <PackagePath>logoWideTile.scale-100.png</PackagePath>
+      <Modified>2022-09-11T22:14:12.384</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoWideTile.scale-125.png">
+      <PackagePath>logoWideTile.scale-125.png</PackagePath>
+      <Modified>2022-09-11T22:14:12.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoWideTile.scale-150.png">
+      <PackagePath>logoWideTile.scale-150.png</PackagePath>
+      <Modified>2022-09-11T22:14:12.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoWideTile.scale-200.png">
+      <PackagePath>logoWideTile.scale-200.png</PackagePath>
+      <Modified>2022-09-11T22:14:12.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoWideTile.scale-400.png">
+      <PackagePath>logoWideTile.scale-400.png</PackagePath>
+      <Modified>2022-09-11T22:14:13.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\page_edit.scale-100.png">
       <PackagePath>page_edit.scale-100.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.462</Modified>
+      <Modified>2022-09-11T22:14:08.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\page_edit.scale-125.png">
       <PackagePath>page_edit.scale-125.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.495</Modified>
+      <Modified>2022-09-11T22:14:08.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\page_edit.scale-150.png">
       <PackagePath>page_edit.scale-150.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.539</Modified>
+      <Modified>2022-09-11T22:14:08.613</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\page_edit.scale-200.png">
       <PackagePath>page_edit.scale-200.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.614</Modified>
+      <Modified>2022-09-11T22:14:08.642</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\page_edit.scale-400.png">
       <PackagePath>page_edit.scale-400.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.825</Modified>
+      <Modified>2022-09-11T22:14:08.740</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pencil.scale-100.png">
       <PackagePath>pencil.scale-100.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.440</Modified>
+      <Modified>2022-09-11T22:14:08.572</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pencil.scale-125.png">
       <PackagePath>pencil.scale-125.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.443</Modified>
+      <Modified>2022-09-11T22:14:08.573</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pencil.scale-150.png">
       <PackagePath>pencil.scale-150.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.445</Modified>
+      <Modified>2022-09-11T22:14:08.574</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pencil.scale-200.png">
       <PackagePath>pencil.scale-200.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.448</Modified>
+      <Modified>2022-09-11T22:14:08.576</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\pencil.scale-400.png">
       <PackagePath>pencil.scale-400.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.454</Modified>
+      <Modified>2022-09-11T22:14:08.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\plus.scale-100.png">
       <PackagePath>plus.scale-100.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.456</Modified>
+      <Modified>2022-09-11T22:14:08.578</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\plus.scale-125.png">
       <PackagePath>plus.scale-125.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.478</Modified>
+      <Modified>2022-09-11T22:14:08.588</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\plus.scale-150.png">
       <PackagePath>plus.scale-150.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.519</Modified>
+      <Modified>2022-09-11T22:14:08.603</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\plus.scale-200.png">
       <PackagePath>plus.scale-200.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.589</Modified>
+      <Modified>2022-09-11T22:14:08.642</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\plus.scale-400.png">
       <PackagePath>plus.scale-400.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.792</Modified>
+      <Modified>2022-09-11T22:14:08.751</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\trash.scale-100.png">
       <PackagePath>trash.scale-100.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.848</Modified>
+      <Modified>2022-09-11T22:14:08.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\trash.scale-125.png">
       <PackagePath>trash.scale-125.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.869</Modified>
+      <Modified>2022-09-11T22:14:08.599</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\trash.scale-150.png">
       <PackagePath>trash.scale-150.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.900</Modified>
+      <Modified>2022-09-11T22:14:08.614</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\trash.scale-200.png">
       <PackagePath>trash.scale-200.png</PackagePath>
-      <Modified>2022-09-01T22:33:00.957</Modified>
+      <Modified>2022-09-11T22:14:08.639</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\trash.scale-400.png">
       <PackagePath>trash.scale-400.png</PackagePath>
-      <Modified>2022-09-01T22:33:01.179</Modified>
+      <Modified>2022-09-11T22:14:08.742</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\trash3.scale-100.png">
       <PackagePath>trash3.scale-100.png</PackagePath>
@@ -1459,23 +1731,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\user_plus.scale-100.png">
       <PackagePath>user_plus.scale-100.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.459</Modified>
+      <Modified>2022-09-11T22:14:08.585</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\user_plus.scale-125.png">
       <PackagePath>user_plus.scale-125.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.489</Modified>
+      <Modified>2022-09-11T22:14:08.598</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\user_plus.scale-150.png">
       <PackagePath>user_plus.scale-150.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.532</Modified>
+      <Modified>2022-09-11T22:14:08.615</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\user_plus.scale-200.png">
       <PackagePath>user_plus.scale-200.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.606</Modified>
+      <Modified>2022-09-11T22:14:08.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Orion\source\repos\QueueSystem\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\user_plus.scale-400.png">
       <PackagePath>user_plus.scale-400.png</PackagePath>
-      <Modified>2022-08-31T20:28:22.828</Modified>
+      <Modified>2022-09-11T22:14:08.767</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

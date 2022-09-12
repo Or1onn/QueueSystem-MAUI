@@ -62,13 +62,8 @@ public partial class MainPage : ContentPage
                     result.Queue = 1;
 
                 Queues.Add(result);
-                list.ItemsSource = Queues;
                 await connection.InsertAsync(result);
             }
-        }
-        else
-        {
-            list.ItemsSource = Queues;
         }
     }
     async void OnEditButtonTapped(object sender, EventArgs e)
@@ -98,10 +93,6 @@ public partial class MainPage : ContentPage
                 await connection.InsertOrReplaceAsync(obj);
             }
         }
-        else
-        {
-            list.ItemsSource = Queues;
-        }
     }
 
     async void OnDeleteButtonTapped(object sender, EventArgs e)
@@ -119,8 +110,6 @@ public partial class MainPage : ContentPage
 
 
         Queues.RemoveAt(position);
-        list.ItemsSource = null;
-        list.ItemsSource = Queues;
     }
 
     async void OnAllDeleteButtonTapped(object sender, EventArgs e)

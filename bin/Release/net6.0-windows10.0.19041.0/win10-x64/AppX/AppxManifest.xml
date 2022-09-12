@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="68028A63-E4DF-4266-82DE-2A1D166B68AB" Publisher="CN=User Name" Version="1.0.0.1" ProcessorArchitecture="x64" />
+  <Identity Name="68028A63-E4DF-4266-82DE-2A1D166B68AB" Publisher="CN=Contoso" Version="1.0.0.1" ProcessorArchitecture="x64" />
   <Properties>
     <DisplayName>QueueSystem</DisplayName>
     <PublisherDisplayName>User Name</PublisherDisplayName>
